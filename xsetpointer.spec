@@ -1,11 +1,10 @@
 Name: xsetpointer
 Version: 1.0.1
-Release: %mkrel 10
+Release: 11
 Summary: Set an X Input device as the main pointer
 Group: Development/X11
 Source: http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
 License: MIT
-BuildRoot: %{_tmppath}/%{name}-root
 
 BuildRequires: pkgconfig(x11) >= 1.0.0
 BuildRequires: pkgconfig(xi) >= 1.0.0
