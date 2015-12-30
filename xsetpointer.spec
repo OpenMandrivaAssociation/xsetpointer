@@ -29,4 +29,4 @@ Xsetpointer sets an XInput device as the main pointer.
 
 %files
 %{_bindir}/xsetpointer
-%{_mandir}/man1/xsetpointer.1x*
+%{_mandir}/man1/xsetpointer.1.*
